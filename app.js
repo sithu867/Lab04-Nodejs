@@ -2,9 +2,9 @@ const condition = true;   // change to false to test error
 
 const myPromise = new Promise((resolve, reject) => {
   if (condition) {
-    resolve('Success! Async/Await worked.');
+    resolve('Success!!! Async/Await worked.');
   } else {
-    reject('Error! Something went wrong.');
+    reject('Error! Something went wrong!!!');
   }
 });
 
